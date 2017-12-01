@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Lato');
+
+header{
+text-align: center;
+}
+
+body{
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  color: black;
+  }
+
+a{
+  color: rgb(22,57,130);
+}
+
+a:visited{
+  color: rgb(251,121,77);
+}
+
+a:hover{
+  color: rgb(40,44,52);
+}
+
+a:active{
+ color: rgb(239,63,59);
+}
+
+article{
+font-family: "Lato";
+font-weight: 250;
+color: black;
+}
+
+#wrapper{
+  max-width: 720px;
+  background-color: rgba(167,126,75, 0.55);
+  padding-right: 2px;
+  padding-top: -10px;
+}
+
+.grid{
+  display: grid;
+  grid-columns: (2, 1fr);
+  grid-rows: (min-content, 1fr);
+  grid-gap: 5px;
+}
+
+
+.grid div{
+  border: 2px dotted black;
+}
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  /*
+  CSS grid scaffolding provided by Erin Brown.
+  http://github.com/umiami-web-design/grid-templates
+*/
