@@ -1,62 +1,90 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo|Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
-header{
-text-align: center;
-}
-
-body{
-  font-family: "Arimo", sans-serif;
+header {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   color: black;
-  }
+  text-align: center;
+}
 
-a{
+header h1 {
+padding-top: 0px;
+font-size: 40px;
+}
+header h2 {
+  font-size: 30px;
+}
+
+
+main section{
+  font-family: "Oswald" sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: black
+}
+main section h1{
+  padding-top: 15px;
+  font-size: 30px;
+  font-family: "Lato" sans-serif;
+}
+
+section h2{
+  padding-top: 20px;
+
+}
+main section article{
+  font-family: "Oswald" sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: rgb(4,19,69)
+
+}
+a {
   color: rgb(22,57,130);
 }
 
-a:visited{
+a:visited {
   color: rgb(251,121,77);
 }
 
-a:hover{
-  color: rgb(40,44,52);
+a:hover {
+  color: rgb(235,28,49);
 }
 
-a:active{
+a:active {
  color: rgb(239,63,59);
 }
 
-article{
-font-family: "Lato";
-font-weight: 250;
-color: black;
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
 }
 
-#wrapper{
-  max-width: 720px;
-  background-color: rgba(167,126,75, 0.55);
-  padding-right: 2px;
-  padding-top: -10px;
+li {
+    display: inline;
 }
 
-.grid{
-  display: grid;
-  grid-columns: (2, 1fr);
-  grid-rows: (min-content, 1fr);
-  grid-gap: 5px;
+li a {
+  font-size: 25px;
+    padding: 30px;
+}
+
+iframe{
+  padding-left: 400px;
+  padding-top: 25px;
+}
+
+footer{
+  text-align: center;
+  padding-top: 30px;
 }
 
 
-.grid div{
-  border: 2px dotted black;
-}
-body{
-  background-image: url("background.jpg");
+body {
+  background-image: url(vintage-concrete.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-
-  /*
-  CSS grid scaffolding provided by Erin Brown.
-  http://github.com/umiami-web-design/grid-templates
-*/
+}
