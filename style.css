@@ -16,6 +16,11 @@ header h2 {
 }
 
 
+main section{
+  font-family: "Oswald" sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: black
 }
 main section h1{
   padding-top: 15px;
@@ -31,7 +36,7 @@ main section article{
   font-family: "Oswald" sans-serif;
   font-weight: 200;
   font-size: 18px;
-  color: rgb(4,19,69)
+  color: black;
 
 }
 a {
